@@ -8,7 +8,6 @@ RUN pip install --no-cache-dir boto3==1.9.142 && \
     pip install --no-cache-dir tzlocal==2.0.0 && \
     pip install --no-cache-dir backoff==1.8.0 && \
     pip install --no-cache-dir sqlanydb==1.0.10 && \
-    pip install --no-cache-dir pyodbc==4.0.27 && \
     \
     adduser -Du 2345  unpriv
 
